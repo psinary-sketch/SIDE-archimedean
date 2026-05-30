@@ -1,0 +1,6 @@
+import SIDEArchimedean.Reflection
+#print axioms SIDEArchimedean.theta_weight_doubles_to_one
+#print axioms SIDEArchimedean.fe_reflect_fixed_iff
+#print axioms SIDEArchimedean.focus_codim_eq_one_iff
+#print axioms SIDEArchimedean.archimedean_identifies_half
+#print axioms SIDEArchimedean.archimedean_forces_half
