@@ -2,18 +2,14 @@
   SIDE-archimedean · Reflection.lean
   ==================================
 
-  The Archimedean / √ IDENTIFICATION of σ = 1/2.
-
   Checkpoint 1.2-A in the alternative-proof-paths census
-  (PATHS_TO_THE_CRITICAL_LINE). An IDENTIFICATION kernel — same
-  status as Voice1 (Euler balance), Voice6 (spectral), and the
-  Frobenius checkpoint: it verifies the Archimedean machinery
-  POINTS at σ = 1/2. It does NOT prove RH on its own — that needs
-  the exhaustive mechanism catalogue.
+  (PATHS_TO_THE_CRITICAL_LINE).
 
-  The path: n² → θ(τ) → the √ transformation θ(−1/τ) = √(−iτ)·θ(τ)
-  → the functional equation ξ(s) = ξ(1−s) → Focus (ξ real on the
-  critical line, codim 2 → 1) at σ = 1/2.
+  An IDENTIFICATION kernel over ℚ: it proves that the fixed point of
+  the reflection σ ↦ 1 − σ is σ = 1/2 and that a codimension count
+  defined to be 1 exactly at σ = 1/2 picks out the same point; the
+  path n² → θ → √ transformation → ξ(s) = ξ(1−s) → Focus is the
+  reading, not stated in this file, and it does not prove RH.
 
   Source: CRITICAL RESOLVE Path One; A Place to Stand (√ mechanism,
   Focus); SIDE-kernel Voice3 (reflect_fixed_iff).
@@ -55,8 +51,8 @@ theorem archimedean_identifies_half (σ : ℚ) :
     fe_reflect σ = σ ↔ focus_codim σ = 1 := by
   rw [fe_reflect_fixed_iff, focus_codim_eq_one_iff]
 
-/-- The headline identification: the Archimedean functional-equation
-    structure forces σ = 1/2. -/
+/-- The headline identification: the fixed point of the
+    functional-equation reflection σ ↦ 1 − σ (over ℚ) is σ = 1/2. -/
 theorem archimedean_forces_half (σ : ℚ) (h : fe_reflect σ = σ) : σ = 1 / 2 :=
   (fe_reflect_fixed_iff σ).mp h
 
