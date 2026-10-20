@@ -1,0 +1,5 @@
+SIDEArchimedean.theta_weight_doubles_to_one
+SIDEArchimedean.fe_reflect_fixed_iff
+SIDEArchimedean.focus_codim_eq_one_iff
+SIDEArchimedean.archimedean_identifies_half
+SIDEArchimedean.archimedean_forces_half
