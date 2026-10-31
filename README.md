@@ -12,6 +12,8 @@ J. York Seale — https://orcid.org/0009-0008-7993-0310
 
 The Archimedean path (CRITICAL RESOLVE Path One; A Place to Stand, the √ mechanism and Focus) reaches sigma = 1/2 through the theta transformation and the functional equation.
 
+Two of the compiled statements, named in the path's terms:
+
 - `fe_reflect_fixed_iff` — the functional-equation reflection sigma to 1-sigma has its unique fixed point at sigma = 1/2.
 - `archimedean_identifies_half` — the FE fixed point and the Focus point coincide.
 
